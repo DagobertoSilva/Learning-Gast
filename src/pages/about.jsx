@@ -1,5 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import Menu from '../components/Menu'
+
 
 
 const About = () => {
@@ -7,11 +8,8 @@ const About = () => {
 
     return(
     <> 
-     <nav>
-  <Link to="/about" activeStyle={{color: "red"}}>About</Link> |
-  <Link to="/contact" activeStyle={{color: "red"}}>Contact</Link>
-  </nav>
-
+    
+    <Menu />
     <h1>about</h1>
     <h2>{ text }</h2>
     </>
